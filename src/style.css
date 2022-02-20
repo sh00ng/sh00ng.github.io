@@ -1,0 +1,69 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+.greetings {
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.weather {
+    align-items: left;
+    padding: 30px 0px;
+}
+
+form {
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+input::placeholder {color:white;}
+
+.underline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+    background: transparent;
+    line-height: 2;
+    border-left-width:0;
+    border-right-width:0;
+    border-top-width:0;
+    border-bottom-width:1;
+    border-color: white;
+    outline:none;
+    align-items: center;
+}
+
+h1.clock {
+    font-size: 100px;
+    margin: 0 auto;
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    width: 350px;
+    margin: 0 auto;
+}
+
+span {
+    padding: 0px 5px;
+}
+
+/* CSS */
+button {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+}
